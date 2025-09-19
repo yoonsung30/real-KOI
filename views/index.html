@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio-Koi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/koi.css" />
+  </head>
+  <body>
+    <!-- 상단 네비게이션 바 -->
+    <nav class="navbar navbar-expand-lg fixed-top nav-bar-2">
+      <div class="container">
+        <a class="navbar-brand" style="border: none" href="#"><b>고이.</b></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="메뉴 열기"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home"></a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">서비스</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">작업목록</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-form">문의하기</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 메인 캐러셀 -->
+    <header id="home" class="first-section">
+      <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/white-2.jpg" class="d-block w-100" alt="슬라이드1" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/bar-2.jpg" class="d-block w-100" alt="슬라이드2" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/gym.jpg" class="d-block w-100" alt="슬라이드3" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#mainCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#mainCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- 회사 소개 섹션 -->
+    <section id="about">
+      <div class="container animation">
+        <div class="row intro-text">
+          <div class="col-md-6">
+            <h3>Total Photograph Ageny</h3>
+            <h3><b>고이.</b></h3>
+            <p>
+              저희 고이는 감각적인 촬영기법과 뛰어난 을 바탕으로 <br />
+              고객님에게 최고의 사진촬영 서비스를 제공합니다.
+              <br />실내/제품/감성사진등 고객님의 사업전반에<br />
+              필요한 모든 이미지들을 사진에 담아드립니다.
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="img/november.jpg"
+              class="img-fluid rounded"
+              alt="회사 이미지"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- 두번쨰 소개섹션 -->
+      <div class="container">
+        <div class="row intro-text mt-5">
+          <div class="col-md-6 order-1 order-md-2">
+            <img
+              src="img/gym.jpg"
+              class="img-fluid rounded"
+              alt="회사 이미지"
+            />
+          </div>
+          <div class="col-md-6 order-1 order-md-2 mt-5">
+            <h3>첫번째.</h3>
+            <h3><b>건물외관/실내인테리어 촬영</b></h3>
+            <p>
+              <br />
+              건물외관 및 실내내부 인테리어를 촬영합니다.
+              <br />
+              숙박업,요식업,체육시설 등 인테리어 비주얼이 중요한 <br />
+              업종에 도움이 되는 촬영입니다.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 세번쨰 소개섹션 -->
+      <div class="container mt-5">
+        <div class="row intro-text m-3">
+          <div class="col-md-6 order-2 order-md-1 mt-5">
+            <h3>두번째.</h3>
+            <h3><b>디테일 제품 촬영</b></h3>
+            <p>
+              음식부터 제품들 까지 문제없이 촬영합니다.<br />
+              <br />상세페이지, 썸네일, 광고용 사진등 <br />
+              디테일과 섬세함이 필요하신 분들께 도움이 되는 촬영입니다.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="img/test-photo-1/ETK_9747.jpg"
+              class="img-fluid rounded"
+              alt="회사 이미지"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- 세번쨰 소개 섹션 -->
+      <div class="container mt-5">
+        <div class="row intro-text">
+          <div class="col-md-6">
+            <img
+              src="img/bar-2.jpg"
+              class="img-fluid rounded"
+              alt="회사 이미지"
+            />
+          </div>
+          <div class="col-md-6 mt-5">
+            <h3>세번째.</h3>
+            <h3><b>SNS감성촬영</b></h3>
+            <p>
+              <br />
+              SNS업로드용, 홍보용 사진촬영 입니다.
+              <br />광고와 홍보용 사진을 넘어서 <br />
+              브랜드 이미지를 생각하시는 분들이 계시다면 <br />
+              추천드립니다. 감각적인 이미지를 만들어드립니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 포트폴리오 섹션 -->
+    <section id="portfolio" class="bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">작업목록</h2>
+        <div class="row">
+          <div class="col-md-4 portfolio-item">
+            <img
+              src="img/white-2.jpg"
+              class="img-fluid rounded"
+              id="more-item"
+              alt="작업물1"
+            />
+          </div>
+          <div class="col-md-4 portfolio-item">
+            <img
+              src="img/test-photo-1/ETK_9747.jpg"
+              class="img-fluid rounded"
+              alt="작업물2"
+            />
+          </div>
+          <div class="col-md-4 portfolio-item">
+            <img src="img/bar.jpg" class="img-fluid rounded" alt="작업물3" />
+          </div>
+        </div>
+
+        <!-- 포트폴리오 요소 클릭시 캐러셀 -->
+      </div>
+      <!-- 더보기 섹션 -->
+      <!-- <div class="container more-section">
+        <div class="row">
+          <div class="col-md-4 portfolio-item"> -->
+      <!-- <img
+              src="https://via.placeholder.com/350x200"
+              class="img-fluid rounded"
+              alt="작업물1"
+            /> -->
+      <!-- </div>
+          <div class="col-md-4 portfolio-item">
+            <img
+              src="https://via.placeholder.com/350x200"
+              class="img-fluid rounded"
+              alt="작업물2"
+            />
+          </div>
+          <div class="col-md-4 portfolio-item">
+            <img
+              src="https://via.placeholder.com/350x200"
+              class="img-fluid rounded"
+              alt="작업물3"
+            />
+          </div>
+        </div>
+      </div> -->
+      <div class="text-center">
+        <a href="/more">
+          <button type="button" class="btn btn-outline-secondary more-btu">
+            MORE
+          </button></a
+        >
+      </div>
+    </section>
+
+    <!-- 제작문의폼 -->
+    <section id="contact-form" class="form-bg">
+      <div class="form-title">
+        <h3 style="color: white">촬영문의</h3>
+      </div>
+
+      <form action="/contact" method="POST" class="container main-form">
+        <!-- 업체명 -->
+        <div class="input-group mb-3">
+          <span class="input-group-text">업체명</span>
+          <input type="text" class="form-control" name="company" required />
+        </div>
+
+        <!-- 성함 -->
+        <div class="input-group mb-3">
+          <span class="input-group-text">성함</span>
+          <input type="text" class="form-control" name="name" required />
+        </div>
+        <!-- 전화번호 -->
+        <div class="input-group mb-3">
+          <span class="input-group-text">전화번호</span>
+          <input type="tel" class="form-control" name="tel" required />
+        </div>
+        <!-- 이메일 -->
+        <div class="input-group mb-3">
+          <span class="input-group-text">이메일</span>
+          <input type="email" class="form-control" name="email" required />
+        </div>
+
+        <!-- 작업목록 -->
+        <div class="mb-3">
+          <label class="form-label">작업목록</label>
+          <div class="input-group">
+            <div class="input-group mb-0">
+              <div>
+                <input
+                  type="checkbox"
+                  name="work[]"
+                  value="실/내외 사진촬영"
+                  class="form-check-input m-1"
+                />
+                <span class="p-1">실/내외 사진촬영</span>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="work[]"
+                  value="음식/제품 디테일 사진촬영"
+                  class="form-check-input m-1"
+                />
+                <span class="p-1">음식/제품 디테일 사진촬영</span>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="work[]"
+                  value="SNS용 감성사진촬영"
+                  class="form-check-input m-1"
+                />
+                <span class="p-1">SNS용 감성사진촬영</span>
+              </div>
+            </div>
+          </div>
+          <div class="form-text">복수선택 가능합니다.</div>
+        </div>
+
+        <!-- 상세내용 -->
+        <div class="input-group he">
+          <span class="input-group-text">상세내용</span>
+          <textarea
+            class="form-control"
+            name="details"
+            aria-label="With textarea"
+          ></textarea>
+        </div>
+
+        <!-- 제출 버튼 -->
+        <button type="submit" class="btn btn-outline-success btn-2">
+          상담문의하기
+        </button>
+      </form>
+    </section>
+
+    <button class="call-btn">
+      <a href="tel:01024376150" class="call-up">
+        <i class="fa-solid fa-phone-volume"></i>
+      </a>
+    </button>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <!-- 상단 큰 문구 -->
+        <h5 class="footer-title">
+          고이.<br />
+          <p style="font-size: 10px; opacity: 0.5">Total Photograph Ageny</p>
+        </h5>
+        <hr />
+        <!-- 하단 정보 영역 -->
+        <div class="footer-sections">
+          <!-- 메뉴 링크 -->
+          <div class="footer-section">
+            <ul>
+              <li><a href="#about">회사소개</a></li>
+              <li><a href="#portfolio">포트폴리오</a></li>
+              <li><a href="#contact-form">문의하기</a></li>
+            </ul>
+          </div>
+
+          <!-- 연락처 -->
+          <div class="footer-section">
+            <p>경기도 용인시 처인구</p>
+            <p>사업자등록번호:</p>
+            <a>010-2437-6150</a>
+            <p>ysr220910@gmail.com</p>
+            <p></p>
+          </div>
+
+          <!-- SNS 아이콘 -->
+          <div class="footer-section">
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i
+                    ><span>instagram</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-file"></i>
+                    <span>이용약관</span></a
+                  >
+                </li>
+
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-user"></i
+                    ><span>개인정보처리방침</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-bottom">
+          <p>© 2025 고이. All rights reserved.</p>
+        </div>
+        <!-- 저작권 -->
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/koi.js"></script>
+  </body>
+</html>
